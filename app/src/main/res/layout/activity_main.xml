@@ -27,4 +27,11 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:text="RecyclerGrid演示" />
+
+    <Button
+        android:id="@+id/bt_grid_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="GridView演示" />
 </LinearLayout>

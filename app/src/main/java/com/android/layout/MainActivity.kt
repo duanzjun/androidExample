@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         bt_view_pager2.setOnClickListener(this)
         bt_recycler_linear.setOnClickListener(this)
         bt_recycler_grid.setOnClickListener(this)
+        bt_grid_view.setOnClickListener(this)
 
     }
 
@@ -22,6 +23,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.bt_view_pager2 -> ViewPager2Activity.actionStart(this)
             R.id.bt_recycler_linear -> RecyclerLinearActivity.actionStart(this)
             R.id.bt_recycler_grid -> RecyclerGridActivity.actionStart(this)
+            R.id.bt_grid_view -> GridViewActivity.actionStart(this)
         }
     }
 }
