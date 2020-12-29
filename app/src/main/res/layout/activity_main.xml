@@ -1,37 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
-
     tools:context=".MainActivity">
 
     <Button
         android:id="@+id/bt_view_pager2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ViewPager2演示" />
+        android:text="View Pager2演示" />
 
     <Button
         android:id="@+id/bt_recycler_linear"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="RecyclerLinear演示" />
+        android:text="Recycler Linear演示" />
 
     <Button
         android:id="@+id/bt_recycler_grid"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="RecyclerGrid演示" />
+        android:text="Recycler Grid演示" />
 
     <Button
         android:id="@+id/bt_grid_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="GridView演示" />
+        android:text="Grid View演示" />
+
+    <Button
+        android:id="@+id/bt_draw_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Surface Draw演示" />
+
+    <Button
+        android:id="@+id/bt_crime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Crime演示" />
+
+    <Button
+        android:id="@+id/bt_room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Room数据库测试" />
 </LinearLayout>

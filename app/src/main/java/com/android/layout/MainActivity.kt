@@ -15,6 +15,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         bt_recycler_linear.setOnClickListener(this)
         bt_recycler_grid.setOnClickListener(this)
         bt_grid_view.setOnClickListener(this)
+        bt_draw_test.setOnClickListener(this)
+        bt_crime.setOnClickListener(this)
+        bt_room.setOnClickListener(this)
+
 
     }
 
@@ -24,6 +28,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.bt_recycler_linear -> RecyclerLinearActivity.actionStart(this)
             R.id.bt_recycler_grid -> RecyclerGridActivity.actionStart(this)
             R.id.bt_grid_view -> GridViewActivity.actionStart(this)
+            R.id.bt_draw_test -> SurfaceViewActivity.actionStart(this)
+            R.id.bt_crime -> CrimeActivity.actionStart(this)
+            R.id.bt_room -> RoomTestActivity.actionStart(this)
         }
     }
 }
