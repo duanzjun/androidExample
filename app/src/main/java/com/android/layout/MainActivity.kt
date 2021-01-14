@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         bt_draw_test.setOnClickListener(this)
         bt_crime.setOnClickListener(this)
         bt_room.setOnClickListener(this)
+        bt_camera.setOnClickListener(this)
+        bt_shape.setOnClickListener(this)
 
 
     }
@@ -31,6 +33,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.bt_draw_test -> SurfaceViewActivity.actionStart(this)
             R.id.bt_crime -> CrimeActivity.actionStart(this)
             R.id.bt_room -> RoomTestActivity.actionStart(this)
+            R.id.bt_camera -> CameraAlbumActivity.actionStart(this)
+            R.id.bt_shape -> ShapeTestActivity.actionStart(this)
         }
     }
 }

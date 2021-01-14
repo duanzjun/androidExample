@@ -54,4 +54,18 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:text="Room数据库测试" />
+
+    <Button
+        android:id="@+id/bt_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="图片上传测试" />
+
+    <Button
+        android:id="@+id/bt_shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="shape绘制常用形状" />
 </LinearLayout>
