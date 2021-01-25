@@ -17,4 +17,28 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="弹窗1" />
+
+    <Button
+        android:id="@+id/dialogTest2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="弹窗2" />
+
+    <Button
+        android:id="@+id/dialogTest3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="弹窗3" />
+
+    <Button
+        android:id="@+id/dialogTest4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="弹窗4" />
+
+    <Button
+        android:id="@+id/dialogTest5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="弹窗5" />
 </LinearLayout>
