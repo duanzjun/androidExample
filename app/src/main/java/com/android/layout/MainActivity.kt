@@ -20,6 +20,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         bt_room.setOnClickListener(this)
         bt_camera.setOnClickListener(this)
         bt_shape.setOnClickListener(this)
+        bt_fragment.setOnClickListener(this)
+        bt_dialog.setOnClickListener(this)
 
 
     }
@@ -35,6 +37,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.bt_room -> RoomTestActivity.actionStart(this)
             R.id.bt_camera -> CameraAlbumActivity.actionStart(this)
             R.id.bt_shape -> ShapeTestActivity.actionStart(this)
+            R.id.bt_fragment -> StartFragmentActivity.actionStart(this)
+            R.id.bt_dialog -> DialogActivity.actionStart(this)
         }
     }
 }

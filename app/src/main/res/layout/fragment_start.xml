@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- The primary full-screen view. This can be replaced with whatever view
+         is needed to present your content, e.g. VideoView, SurfaceView,
+         TextureView, etc. -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/space"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="1"
+            android:textSize="50sp" />
+
+        <Space
+            android:id="@+id/space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/space"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="20dp"
+            android:text="Start Fragment" />
+    </RelativeLayout>
+    <!--    <TextView-->
+    <!--        android:id="@+id/fullscreen_content"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:gravity="center"-->
+    <!--        android:keepScreenOn="true"-->
+    <!--        android:text="@string/dummy_content"-->
+    <!--        android:textColor="?attr/fullscreenTextColor"-->
+    <!--        android:textSize="50sp"-->
+    <!--        android:textStyle="bold" />-->
+
+    <!--    &lt;!&ndash; This FrameLayout insets its children based on system windows using-->
+    <!--         android:fitsSystemWindows. &ndash;&gt;-->
+    <!--    <FrameLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:fitsSystemWindows="true">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:id="@+id/fullscreen_content_controls"-->
+    <!--            style="@style/Widget.Theme.Layout.ButtonBar.Fullscreen"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_gravity="bottom|center_horizontal"-->
+    <!--            android:orientation="horizontal"-->
+    <!--            tools:ignore="UselessParent">-->
+
+    <!--            <Button-->
+    <!--                android:id="@+id/dummy_button"-->
+    <!--                style="?android:attr/buttonBarButtonStyle"-->
+    <!--                android:layout_width="0dp"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_weight="1"-->
+    <!--                android:text="@string/dummy_button" />-->
+
+    <!--        </LinearLayout>-->
+
+    <!--        <Space-->
+    <!--            android:layout_width="wrap_content"-->
+    <!--            android:layout_height="wrap_content" />-->
+    <!--    </FrameLayout>-->
+
+</FrameLayout>
